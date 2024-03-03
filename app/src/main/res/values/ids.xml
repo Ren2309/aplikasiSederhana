@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="radioGroupBarang1" type="id" />
+    <item name="radioGroupBarang2" type="id" />
+    <item name="radioGroupBarang3" type="id" />
+    <item name="radioGroupMembership" type="id" />
+    <item name="radioBarang1Harga1" type="id" />
+    <item name="radioBarang1Harga2" type="id" />
+    <item name="radioBarang2Harga1" type="id" />
+    <item name="radioBarang3Harga1" type="id" />
+    <item name="btnProses" type="id" />
+    <item name="tvNota" type="id" />
+    <item name="radioMember" type="id" />
+</resources>

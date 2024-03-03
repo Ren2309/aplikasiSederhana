@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <!-- Judul Aplikasi -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:text="Aplikasi Kasir Sederhana"
+        android:textSize="18sp" />
+
+    <!-- Pilihan Barang 1 -->
+    <RadioGroup
+        android:id="@+id/radioGroupBarang1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/anjaz" />
+
+        <RadioButton
+            android:id="@+id/radioBarang1Harga1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item 1 - Rp 49.500" />
+
+        <RadioButton
+            android:id="@+id/radioBarang1Harga2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item 1 - Rp 50.000" />
+
+    </RadioGroup>
+
+    <!-- Pilihan Barang 2 -->
+    <RadioGroup
+        android:id="@+id/radioGroupBarang2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/iiii" />
+
+        <RadioButton
+            android:id="@+id/radioBarang2Harga1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item 2 - Rp 9.500" />
+
+        <!-- Add more options if needed -->
+
+    </RadioGroup>
+
+    <!-- Pilihan Barang 3 -->
+    <RadioGroup
+        android:id="@+id/radioGroupBarang3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ytr" />
+
+        <RadioButton
+            android:id="@+id/radioBarang3Harga1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Item 3 - Rp 10.000" />
+
+        <!-- Add more options if needed -->
+
+    </RadioGroup>
+
+    <!-- Radio Group Membership -->
+    <RadioGroup
+        android:id="@+id/radioGroupMembership"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="16dp">
+
+        <RadioButton
+            android:id="@+id/radioMember"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Membership" />
+    </RadioGroup>
+
+    <!-- Button Proses -->
+    <Button
+        android:id="@+id/btnProses"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Proses"
+        android:layout_marginTop="16dp" />
+
+    <!-- Nota / Bon -->
+    <TextView
+        android:id="@+id/tvNota"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:paddingTop="16dp" />
+</LinearLayout>
